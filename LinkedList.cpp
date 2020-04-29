@@ -27,5 +27,5 @@ void LinkedList::removefront()
 {
     node * old = Head;
     Head = Head->next;
-    delete[] old;
+    delete old;
 }
